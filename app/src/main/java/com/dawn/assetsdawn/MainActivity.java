@@ -12,7 +12,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void jumpToWeb(View view){
-        startActivity(new Intent(this, WebActivity.class));
+    public void jumpToAssetWeb(View view){
+        startActivity(new Intent(this, AssetWebActivity.class));
+    }
+    public void jumpToAssetManager(View view){
+        startActivity(new Intent(this, AssetManagerActivity.class));
+    }
+    public void jumpToAssetImage(View view){
+        startActivity(new Intent(this, AssetImageActivity.class));
+    }
+    public void jumpToAssetMusic(View view){
+        startActivity(new Intent(this, AssetMusicActivity.class));
+    }
+    public void jumpToAssetCopy(View view){
+        startActivity(new Intent(this, AssetCopyActivity.class));
+    }
+    public void jumpToAssetStr(View view){
+        startActivity(new Intent(this, AssetStrActivity.class));
     }
 }

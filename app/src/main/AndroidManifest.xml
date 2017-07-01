@@ -16,8 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WebActivity"/>
+        <activity android:name=".AssetWebActivity"/>
+        <activity android:name=".AssetManagerActivity"/>
+        <activity android:name=".AssetImageActivity"/>
+        <activity android:name=".AssetMusicActivity"/>
+        <activity android:name=".AssetCopyActivity"/>
+        <activity android:name=".AssetStrActivity"/>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 </manifest>

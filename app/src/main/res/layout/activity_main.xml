@@ -1,12 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:orientation="vertical">
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="jump to web"
-        android:onClick="jumpToWeb"/>
+        android:text="jump to asset web"
+        android:onClick="jumpToAssetWeb"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jump to asset manager"
+        android:onClick="jumpToAssetManager"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jump to asset image"
+        android:onClick="jumpToAssetImage"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jump to asset music"
+        android:onClick="jumpToAssetMusic"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jump to asset copy"
+        android:onClick="jumpToAssetCopy"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jump to asset str"
+        android:onClick="jumpToAssetStr"/>
 
-</RelativeLayout>
+
+</LinearLayout>
