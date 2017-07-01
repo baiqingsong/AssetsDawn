@@ -10,7 +10,9 @@
 
 直接在src/main下新建assets目录：  
 ![assets](app/src/main/assets/add_assets_1.png)
-
+需要注意的是assets的位置
+2. 第二种方法：
+![assets](app/arc/main/assets/add_assets_2.png)
 
 ## 加载assets下的网页
 
