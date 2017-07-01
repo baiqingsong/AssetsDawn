@@ -14,7 +14,7 @@
 2. 第二种方法：  
 
 通过向导添加  
-![assets](app/arc/main/assets/add_assets_2.png)
+![assets](app/src/main/assets/add_assets_2.png)
 
 ## 加载assets下的网页
 
