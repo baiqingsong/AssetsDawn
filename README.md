@@ -8,8 +8,8 @@
 
 1. 第一种方法：  
 
-直接在src/main下新建assets目录：
-![assets]()
+直接在src/main下新建assets目录：  
+![assets](app/src/main/assets/add_assets_1.png)
 
 
 ## 加载assets下的网页
