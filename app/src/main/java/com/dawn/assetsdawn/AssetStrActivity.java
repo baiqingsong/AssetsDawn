@@ -22,7 +22,7 @@ public class AssetStrActivity extends AppCompatActivity {
         tvContent = (TextView) findViewById(R.id.tv_content);
         try {
             InputStream inputStream = getAssets().open("dawn/dawn.txt");
-            String str = nputStreamTOString(inputStream, "utf8");
+            String str = inputStreamTOString(inputStream, "utf8");
             tvContent.setText(str);
         } catch (IOException e) {
             e.printStackTrace();
@@ -37,7 +37,7 @@ public class AssetStrActivity extends AppCompatActivity {
      * @return
      * @throws Exception
      */
-    public static String nputStreamTOString(InputStream in,String encoding) throws Exception{
+    public static String inputStreamTOString(InputStream in,String encoding) throws Exception{
 
         ByteArrayOutputStream outStream = new ByteArrayOutputStream();
         byte[] data = new byte[1024 * 4];

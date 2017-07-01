@@ -46,7 +46,7 @@ getAssets().open("index.html");
  * @return
  * @throws Exception
  */
-public static String nputStreamTOString(InputStream in,String encoding) throws Exception{
+public static String inputStreamTOString(InputStream in,String encoding) throws Exception{
 
     ByteArrayOutputStream outStream = new ByteArrayOutputStream();
     byte[] data = new byte[1024 * 4];
